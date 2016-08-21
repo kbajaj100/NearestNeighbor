@@ -93,8 +93,6 @@ public class Neighbor {
 	}
 
 	public void getnearest() {
-		// TODO Auto-generated method stub
-
 
 		/*
 		 * 1. Take the start word and find all nearest neighbors. store the neighbor words in a table
@@ -257,7 +255,7 @@ public class Neighbor {
 		
 	}
 	
-	private void populatearr_defunct() {
+	/*private void populatearr_defunct() {
 		//get list of words and insert into WordArr
 		
 		SQL = "select word from wordlist order by TABLE_ID";
@@ -282,7 +280,7 @@ public class Neighbor {
 	    } catch (SQLException se){
 	    	se.printStackTrace();
 	    }
-	}
+	}*/
 
 	private void displayResult(int i) {
 		// TODO Auto-generated method stub
