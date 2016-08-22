@@ -22,9 +22,12 @@ public class Neighbor {
 	
 	public void createlist() throws FileNotFoundException, IOException, SQLException {
 		// TODO Auto-generated method stub
-		
 		initializedb();
 		
+		//int max = 4;
+		
+		//for (int i = 1; i <= max; ++i)
+		//	myneighbor.create_nearest(i);
 	}
 
 	private void initializedb() throws FileNotFoundException, IOException, SQLException {

@@ -13,13 +13,7 @@ public class mainClass {
 		
 		myneighbor.createlist();
 		
-		int max = 4;
-		
-		//for (int i = 1; i <= max; ++i)
-		//	myneighbor.create_nearest(i);
-	
-	
-		myneighbor.setword("stop", "mail");
+		myneighbor.setword("fray", "bark");
 	
 		myneighbor.getnearest();
 		
